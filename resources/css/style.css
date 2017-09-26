@@ -1,0 +1,92 @@
+/* Root Styles */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+/* Header Styles */
+.colmar {
+  font-weight: bold;
+}
+
+.academy {
+  color: grey;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo img {
+  margin-left: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  padding: 0;
+  margin-right: 0.75rem;
+  color: grey;
+}
+
+#last_nav {
+  margin-right: 1.5rem;
+}
+
+/* Main Banner Styles */
+.main_banner {
+  background-color: grey;
+  display: flex;
+}
+
+.banner_img {
+  width: 60%;
+  padding: 2rem 1.5rem;
+  overflow: hidden;
+}
+
+.banner_img img {
+  width: 100%;
+  height: auto;
+}
+
+.banner_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+}
+
+.banner_text h1 {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.banner_text h4 {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.banner_button {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+.banner_button h4 {
+  color: white;
+  margin: 0.5rem 0;  
+}
