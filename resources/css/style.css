@@ -175,6 +175,10 @@ div #guest_lecture {
   padding-top: 1rem;
 }
 
+#guest_lecture_background {
+  background-color: lightgrey;
+}
+
 /* Learning serction */
 
 .courses {
@@ -228,4 +232,75 @@ div #guest_lecture {
 .course img {
   width: 100%;
   height: auto;
+}
+
+/* Exhibit Section*/
+
+.exhibit_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.exhibit_section h1{
+  display: flex;
+  padding: 2rem 0;
+}
+
+.video h2 {
+  padding-bottom: 0.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.video {
+  width: 60%;
+  padding: 0 1.5rem;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+  padding-bottom: 1.5rem;
+}
+
+.exhibit {
+  display: flex;
+  flex-direction: row;
+}
+
+.exhibit img {
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.other_exhibits {
+  width: 40%;
+}
+
+.exhibit_img {
+  width: 35%;
+  overflow: hidden;
+}
+
+.exhibit_text {
+  display: flex;
+  width: 65%;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.exhibit_text h2 {
+  padding-bottom: 1rem;
+}
+
+#fisma {
+  background-color: lightgrey;
 }
