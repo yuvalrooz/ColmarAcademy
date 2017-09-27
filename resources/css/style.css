@@ -4,8 +4,22 @@
   margin: 0;
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 body {
   font-size: 16px;
+}
+
+a:visited {
+  color: Dodgerblue;
 }
 
 /* Header Styles */
@@ -70,8 +84,6 @@ nav span {
 
 .banner_text h1 {
   color: black;
-  font-size: 2rem;
-  font-weight: bold;
   margin-bottom: 1rem;
 }
 
@@ -88,5 +100,132 @@ nav span {
 
 .banner_button h4 {
   color: white;
-  margin: 0.5rem 0;  
+  margin: 0.5rem 0;
+}
+
+/* News Segment */
+
+.news {
+  display: flex;
+  padding: 2rem 0rem;
+}
+
+.main_article {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 0 1.5rem;
+}
+
+.main_article img {
+  width: 100%;
+  height: auto;
+}
+
+.main_article h1 {
+  margin: 2rem 0;
+}
+
+.main_article #article_signature {
+  margin-top: 2rem;
+}
+
+.secondary_articles {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-left: 1rem;
+}
+
+.secondary_article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.secondary_img {
+  width: 35%;
+  overflow: hidden;
+}
+
+.secondary_img img {
+  width: 100%
+}
+
+.secondary_text {
+  margin-left: 2rem;
+  width: 65%;
+}
+
+.secondary_text p {
+  margin: 0.5rem 0;
+}
+
+div #orientation {
+  padding-bottom: 0.5rem;
+}
+
+div #campus {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+div #guest_lecture {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+/* Learning serction */
+
+.courses {
+  background-color: lightgrey;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.courses h1 {
+  display: flex;
+  padding: 2rem 0rem;
+}
+
+.courses h2 {
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.courses h4 {
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+}
+
+.courses p {
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.image_row {
+  display: flex;
+  flex-direction: row;
+  padding: 0 4.5rem;
+}
+
+.course {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: white;
+  width: calc((100%-13rem)/3);
+  margin-bottom: 2rem;
+}
+
+#middle_image {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
 }
