@@ -430,6 +430,22 @@ div #guest_lecture {
   background-color: lightgrey;
 }
 
+@media only screen and (max-width: 480px) {
+  .other_exhibits {
+    display: none;
+  }
+
+  .video h2, p {
+    display: none;
+  }
+
+  .video {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -443,4 +459,10 @@ div #guest_lecture {
 
 .copyrights {
   padding-left: 1.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .footer nav {
+    display: none;
+  }
 }
