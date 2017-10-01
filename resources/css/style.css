@@ -58,6 +58,10 @@ nav span {
   color: grey;
 }
 
+nav img {
+  display: none;
+}
+
 #last_nav {
   margin-right: 1.5rem;
 }
@@ -107,6 +111,11 @@ nav span {
   margin: 0.5rem 0;
 }
 
+.cellphone_buttons {
+  display: none;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 480px) {
   .main_banner {
     flex-direction: column;
@@ -135,8 +144,16 @@ nav span {
   .banner_button {
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-bottom: 1rem;
   }
 
+  .header nav {
+    display: none;
+  }
+
+  .cellphone_buttons {
+    display: flex;
+  }
 }
 
 /* News Segment */
@@ -187,7 +204,6 @@ nav span {
 
 .secondary_img img {
   width: 100%
-  height:auto;
 }
 
 .secondary_text {
@@ -236,10 +252,14 @@ div #guest_lecture {
   }
 
   .secondary_img img {
-    width: 100%
-    height: auto;
+    width: 100%;
+    height: 14rem;
+    margin: 1rem;
   }
 
+  .secondary_text {
+    margin-bottom: 1rem;
+  }
 }
 
 /* Learning serction */
@@ -297,6 +317,48 @@ div #guest_lecture {
   height: auto;
 }
 
+@media only screen and (max-width: 480px) {
+  .courses {
+    background-color: white;
+  }
+
+  .image_row {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .course {
+    width: 100%;
+    background-color: lightgrey;
+    padding: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  #middle_image {
+    margin-bottom: 0.5rem;
+  }
+
+  .course img {
+    display: none;
+  }
+
+  .course h2 {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .course h4 {
+    display: none;
+  }
+
+  .course p {
+    display: none;
+  }
+}
 /* Exhibit Section*/
 
 .exhibit_section {
