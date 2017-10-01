@@ -260,14 +260,15 @@ div #guest_lecture {
 
   .secondary_img {
     width: 100%;
-
+    display: flex;
+    justify-content: center;
   }
 
   .secondary_img img {
     width: calc(100% - 1rem);
     height: auto;
     padding: 0;
-    margin: 0 1rem;
+    margin: 0;
   }
 
 
