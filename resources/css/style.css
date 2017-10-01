@@ -153,6 +153,7 @@ nav img {
 
   .cellphone_buttons {
     display: flex;
+    margin-right: 1.5rem;
   }
 }
 
