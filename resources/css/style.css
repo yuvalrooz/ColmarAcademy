@@ -119,11 +119,20 @@ nav img {
 @media only screen and (max-width: 480px) {
   .main_banner {
     flex-direction: column;
+    align-items: center;
   }
 
   .banner_img {
     width: 100%;
-    padding: 2rem 0rem;
+    padding:0;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner_img img {
+    width: 100%;
   }
 
   .banner_text {
