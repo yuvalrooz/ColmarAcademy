@@ -271,12 +271,13 @@ div #guest_lecture {
     margin: 0;
   }
 
-
-
   .secondary_text {
     margin: 0 0 1rem 0;
-    padding-left: 1rem;
     width: 100%
+  }
+
+  .secondary_text h2,a {
+    padding-left: .5rem;
   }
 }
 
