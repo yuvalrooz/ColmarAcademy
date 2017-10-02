@@ -274,7 +274,8 @@ div #guest_lecture {
 
 
   .secondary_text {
-    margin-bottom: 1rem;
+    margin: 0 0 1rem 0;
+    padding-left: 1rem;
     width: 100%
   }
 }
